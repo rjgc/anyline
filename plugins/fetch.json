@@ -1,0 +1,10 @@
+{
+  "io-anyline-cordova": {
+    "source": {
+      "type": "local",
+      "path": "D:\\Progs\\Xampp2\\htdocs\\anyline-app\\example\\node_modules\\io-anyline-cordova"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

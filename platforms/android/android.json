@@ -1,0 +1,74 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"AnylineSDK\"><param name=\"android-package\" value=\"io.anyline.cordova.AnylinePlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "AndroidManifest.xml": {
+        "parents": {
+          "/manifest": [
+            {
+              "xml": "<uses-permission android:name=\"android.permission.CAMERA\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
+              "count": 1
+            }
+          ],
+          "/manifest/application": [
+            {
+              "xml": "<meta-data android:name=\"com.google.android.gms.vision.DEPENDENCIES\" android:value=\"barcode\" />",
+              "count": 1
+            },
+            {
+              "xml": "<activity android:name=\"io.anyline.cordova.BarcodeActivity\" android:theme=\"@android:style/Theme.Black.NoTitleBar\" />",
+              "count": 1
+            },
+            {
+              "xml": "<activity android:name=\"io.anyline.cordova.MrzActivity\" android:theme=\"@android:style/Theme.Black.NoTitleBar\" />",
+              "count": 1
+            },
+            {
+              "xml": "<activity android:name=\"io.anyline.cordova.EnergyActivity\" android:theme=\"@android:style/Theme.Black.NoTitleBar\" />",
+              "count": 1
+            },
+            {
+              "xml": "<activity android:name=\"io.anyline.cordova.AnylineOcrActivity\" android:theme=\"@android:style/Theme.Black.NoTitleBar\" />",
+              "count": 1
+            },
+            {
+              "xml": "<activity android:name=\"io.anyline.cordova.LicensePlateActivity\" android:theme=\"@android:style/Theme.Black.NoTitleBar\" />",
+              "count": 1
+            },
+            {
+              "xml": "<activity android:name=\"io.anyline.cordova.DocumentActivity\" android:theme=\"@android:style/Theme.Black.NoTitleBar\" />",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "io-anyline-cordova": {
+      "PACKAGE_NAME": "io.anyline.examples.cordova"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [],
+  "plugin_metadata": {
+    "io-anyline-cordova": "3.24.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "io-anyline-cordova": {
+      "PACKAGE_NAME": "io.anyline.examples.cordova"
+    }
+  },
+  "dependent_plugins": {}
+}

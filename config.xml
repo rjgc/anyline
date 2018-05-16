@@ -6,6 +6,6 @@
     <content src="index.html" />
     <access origin="*" />
     <icon src="www/img/ic_launcher.png" />
-    <plugin name="io-anyline-cordova" spec="d:\Progs\Xampp2\htdocs\anyline-app\plugin" />
+    <plugin name="io-anyline-cordova" spec="3.24.0" />
     <engine name="android" spec="^7.1.0" />
 </widget>
